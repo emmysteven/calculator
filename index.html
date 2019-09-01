@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simple Calculate</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+  <link rel="stylesheet" href="./assets/calc.css">
+
+
+</head>
+<body>
+  <div class="container">
+    <table border="1" cellpadding="0">
+      <tr>
+        <td colspan="4" id="inputLabel">0</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <button onclick="compute(this);">AC</button>
+        </td>
+        <td>
+          <button onclick="compute(this);">/</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td><button onclick="compute(this)">7</button></td>
+        <td><button onclick="compute(this)">8</button></td>
+        <td><button onclick="compute(this)">9</button></td>
+        <td><button onclick="compute(this)">*</button></td>
+      </tr>
+
+      <tr>
+        <td><button onclick="compute(this)">4</button></td>
+        <td><button onclick="compute(this)">5</button></td>
+        <td><button onclick="compute(this)">6</button></td>
+        <td><button onclick="compute(this)">-</button></td>
+      </tr>
+
+      <tr>
+        <td><button onclick="compute(this)">1</button></td>
+        <td><button onclick="compute(this)">2</button></td>
+        <td><button onclick="compute(this)">3</button></td>
+        <td><button onclick="compute(this)">+</button></td>
+      </tr>
+
+      <tr>
+        <td><button onclick="compute(this)">0</button></td>
+        <td><button onclick="compute(this)">.</button></td>
+        <td><button onclick="compute(this)">=</button></td>
+        <td><button onclick="compute(this)">-</button></td>
+      </tr>
+
+    </table>
+  </div>
+
+
+  <script src="./assets/calc.js"></script>
+</body>
+</html>
